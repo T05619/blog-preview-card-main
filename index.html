@@ -8,7 +8,9 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-
+    * {
+      margin: 0;
+    }
     body {
       margin: 0;
       display: flex;
@@ -27,7 +29,7 @@
       border: 1px solid black;
       border-radius: 20px;
       box-shadow: 5px 5px 0px black;
-      gap: 2rem;
+      gap: 1rem;
       margin: 5rem;
       max-width: 21rem;
     }
@@ -39,9 +41,22 @@
 
     .Category {
       background-color: #F4D04E;
-      padding: 6px;
+      padding: 6px 12px 6px 12px;
       width: fit-content;
       border-radius: 4px;
+      font-family: "Figtree", sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-size: 14px;
+      font-weight: bolder;
+    }
+
+    .Publish-Date {
+      font-family: "Figtree", sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-size: 14px;
+      color: #111111;
     }
 
     .Content {
@@ -53,6 +68,18 @@
 
     h1 {
       margin: 0;
+      font-family: "Figtree", sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-size: 24px;
+    }
+
+    .Description {
+      font-family: "Figtree", sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-size: 16px;
+      color: #6B6B6B;
     }
 
     .Author {
@@ -60,14 +87,18 @@
       align-items: center;
       gap: 10px;
     }
+
+    .Author-Name {
+      font-family: "Figtree", sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-size: 14px;
+      font-weight: bolder;
+    }
     
     .userpic {
       width: 32px;
       height: 32px;
-    }
-
-    p {
-      margin: 0;
     }
   </style>
 </head>
